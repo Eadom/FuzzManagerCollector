@@ -2,6 +2,18 @@
 
 > [FuzzManager](https://github.com/MozillaSecurity/FuzzManager) client library, easy to submit crash.
 
+## Config
+
+config file ~/.fuzzmanagerconf
+
+```
+[Main]
+sigdir = /tmp/sigcache
+serverhost = localhost
+serverport = 18000
+serverproto = http
+serverauthtoken = f1030d7c7c99c95e1c2aaf819e7449a719377
+```
 
 ## Example
 
